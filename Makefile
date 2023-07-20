@@ -1,3 +1,6 @@
+build:
+	docker build -f Dockerfile -t text-generation-inference-fix:dev .
+
 install-server:
 	cd server && make install
 
